@@ -1,0 +1,72 @@
+A Support Vector Machine (SVM) is a supervised machine learning algorithm that can be utilized for both classification and regression purposes. SVMs are all the more usually utilized in classification issues and in that capacity, this is the thing that we will concentrate on right now. 
+
+SVMs depend on finding a hyperplane that best partitions a dataset into two classes, as appeared in the picture beneath. 
+
+SVM 
+
+Support Vectors 
+
+Support vectors are the data focuses closest to the hyperplane, the purposes of a data set that, whenever expelled, would change the situation of the isolating hyperplane. Along these lines, they can be viewed as the basic components of a data set. 
+
+What is a hyperplane? 
+
+As a straightforward model, for a classification task with just two highlights (like the picture above), you can think about a hyperplane as a line that directly isolates and orders a lot of data. 
+
+Instinctively, the further from the hyperplane our data focuses lie, the more certain we are that they have been accurately arranged. We subsequently need our data focuses to be as distant from the hyperplane as could be expected under the circumstances, while as yet being on its right half. 
+
+So when new testing data is included, whatever side of the hyperplane it terrains will choose the class that we allot to it. 
+
+How would we locate the privilege hyperplane? 
+
+Or on the other hand, at the end of the day, how would we best segregate the two classes inside the data? 
+
+The separation between the hyperplane and the closest data point from either set is known as the edge. The objective is to pick a hyperplane with the best conceivable edge between the hyperplane and any point inside the preparation set, giving a more prominent possibility of new data being characterized effectively.
+
+Pros
+
+Accuracy
+Works well on smaller cleaner datasets
+It can be more efficient because it uses a subset of training points
+
+Cons
+
+Isn’t suited to larger datasets as the training time with SVMs can be high
+Less effective on noisier datasets with overlapping classes
+
+----------
+
+
+
+Linear regression is a fundamental and usually utilized sort of predictive analysis. The general thought of regression is to look at two things: (1) does a lot of indicator variables work admirably in foreseeing an outcome (subordinate) variable? (2) Which variables specifically are critical indicators of the outcome variable, and how would they–showed by the size and indication of the beta appraisals sway the outcome variable? These regression gauges are utilized to clarify the connection between one ward variable and at least one independent variables. The most straightforward type of the regression condition with one needy and one independent variable is characterized by the recipe y = c + b*x, where y = evaluated subordinate variable score, c = consistent, b = regression coefficient, and x = score on the independent variable. 
+
+Naming the Variables. There are numerous names for a regression's needy variable. It might be called an outcome variable, rule variable, endogenous variable, or regressand. The independent variables can be called exogenous variables, indicator variables, or regressors. 
+
+Three significant uses for regression analysis are (1) deciding the quality of indicators, (2) guaging an impact, and (3) pattern anticipating. 
+
+To begin with, the regression may be utilized to recognize the quality of the impact that the independent variable(s) have on a needy variable. Regular inquiries are what is the quality of connection among portion and impact, deals and advertising spending, or age and pay. 
+
+Second, it very well may be utilized to gauge impacts or effect of changes. That is, the regression analysis encourages us to see how a lot of the needy variable changes with an adjustment in at least one independent variables. An average inquiry is, "what amount extra deals pay do I get for each extra $1000 spent on advertising?" 
+
+Third, regression analysis predicts patterns and future qualities. The regression analysis can be utilized to get point gauges. A run of the mill question is, "what will the cost of gold be in a half year?"
+
+
+Types of Linear Regression
+ 
+
+Simple linear regression
+1 dependent variable (interval or ratio), 1 independent variable (interval or ratio or dichotomous)
+
+Multiple linear regression
+1 dependent variable (interval or ratio) , 2+ independent variables (interval or ratio or dichotomous)
+
+Logistic regression
+1 dependent variable (dichotomous), 2+ independent variable(s) (interval or ratio or dichotomous)
+
+Ordinal regression
+1 dependent variable (ordinal), 1+ independent variable(s) (nominal or dichotomous)
+
+Multinomial regression
+1 dependent variable (nominal), 1+ independent variable(s) (interval or ratio or dichotomous)
+
+Discriminant analysis
+1 dependent variable (nominal), 1+ independent variable(s) (interval or ratio)
